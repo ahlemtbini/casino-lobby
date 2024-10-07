@@ -1,17 +1,4 @@
-.games-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
 
-.game-card {
-  width: 200px;
-  padding: 8px;
-  border: 1px solid #ddd;
-  text-align: center;
-}
-
-.game-card img {
-  width: 100%;
-  height: auto;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
